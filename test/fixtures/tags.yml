@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tag_id: 1
+  name: MyString
+  tag_popularity: 1
+
+two:
+  tag_id: 1
+  name: MyString
+  tag_popularity: 1

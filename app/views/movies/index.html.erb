@@ -1,0 +1,21 @@
+<h1>Listing movies</h1>
+
+<a href="train">Train my network</a>
+ 
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Popularity</th>
+  </tr>
+ 
+  <% @movies.each do |movie| %>
+    <tr>
+      <td><%= movie.movie_id %></td>
+      <td><%= movie.title %></td>
+      <td><%= movie.year %></td>
+      <td><%= movie.movie_popularity %></td>
+    </tr>
+  <% end %>
+</table>
